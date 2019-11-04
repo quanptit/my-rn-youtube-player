@@ -1,0 +1,26 @@
+{
+  "name": "my-rn-youtube-player",
+  "version": "1.0.1",
+  "description": "my-rn-common-resource",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "install_npm": "yarn install",
+    "npm_publish": "npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Quan Trinh Van",
+  "license": "ISC",
+  "homepage": "https://github.com/quanptit/my-rn-youtube-player",
+  "bugs": "https://github.com/quanptit/my-rn-youtube-player/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quanptit/my-rn-youtube-player.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {}
+}
