@@ -1,5 +1,5 @@
 export declare class RNYoutubeVideoMoudule {
-    static openFullScreenYotubeVideo(videoId: string, YOUTUBE_KEY: string): void;
+    static openFullScreenYotubeVideo(videoId: string): void;
     /**
      * size: small, big (default)
      * */

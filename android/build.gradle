@@ -21,5 +21,4 @@ android {
 dependencies {
     implementation project(':BaseLibs')
     implementation 'com.facebook.react:react-native:+'
-    implementation files('libs/YouTubeAndroidPlayerApi_1.2.2.jar')
 }

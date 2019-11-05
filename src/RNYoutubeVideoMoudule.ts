@@ -1,10 +1,15 @@
 import {NativeModules} from 'react-native'
-import {isEmpty} from "my-rn-base-utils";
+import {isEmpty, isIOS} from "my-rn-base-utils";
 
 export class RNYoutubeVideoMoudule {
 
-    public static openFullScreenYotubeVideo(videoId: string, YOUTUBE_KEY: string) {
-        NativeModules.RNYoutubeVideoMoudule.openFullScreenYotubeVideo(videoId, YOUTUBE_KEY);
+    public static openFullScreenYotubeVideo(videoId: string) {
+        if (isIOS()){
+            console.log("Not support IOS");
+            return;
+        }
+
+        NativeModules.RNYoutubeVideoMoudule.openFullScreenYotubeVideo(videoId);
     }
 
     /**
