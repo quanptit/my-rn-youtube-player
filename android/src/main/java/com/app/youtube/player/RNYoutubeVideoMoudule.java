@@ -18,7 +18,7 @@ public class RNYoutubeVideoMoudule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void openFullScreenYotubeVideo(String videoId, String YOUTUBE_KEY) {
+    public void openFullScreenYotubeVideo(String videoId) {
         try {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:"+videoId));
             intent.putExtra("VIDEO_ID", videoId);
